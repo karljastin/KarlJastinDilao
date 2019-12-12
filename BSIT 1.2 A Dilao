@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class LabExer1B
+{
+	public static void main(String[]args)
+	{
+		Scanner kj = new Scanner(System.in);
+		System.out.print("Please Enter a Integer : ");
+		int dl = kj.nextInt();
+		
+		int ab = dl + 10;
+		int cd = dl + 100;
+		int ef = dl + 1000;
+		
+		System.out.println(dl + " PLUS IS " + ab);
+		System.out.println(dl + " PLUS IS " + cd);
+		System.out.println(dl + " PLUS IS " + ef);
+	}
+}
